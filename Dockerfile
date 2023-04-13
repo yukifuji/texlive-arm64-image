@@ -9,6 +9,7 @@ RUN apt-get update && \
     apt-get install -qy --no-install-recommends \
     curl \
     ca-certificates \
+    git \
     perl && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/apt/
